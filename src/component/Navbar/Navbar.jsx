@@ -9,7 +9,7 @@ const Navbar = () => {
         OODI
       </h2>
       
-      <ul className='flex gap-18 font-medium'>
+      <ul className='flex gap-18 font-medium poppins-font text-black'>
         <li>Home</li>
         <li>Menu</li>
         <li>Services</li>
@@ -19,7 +19,7 @@ const Navbar = () => {
          <Search></Search>
       <Handbag></Handbag>
 
-          <button className='flex gap-4 btn bg-[#39DB4A] text-white rounded-full m-2 justify-center items-center p-6' ><PhoneCall></PhoneCall>Contact</button>
+          <button className='flex gap-4 btn bg-[#39DB4A] text-white rounded-full m-2 justify-center items-center p-6 poppins-font' ><PhoneCall></PhoneCall>Contact</button>
 
      </div>
     </nav>
